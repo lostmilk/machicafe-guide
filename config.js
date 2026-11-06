@@ -3,6 +3,6 @@
 // 公開停止時: published を false にします。サーバーの自動監視は行いません。
 // この設定は誰でも読めます。パスワードやトークンは記載しないでください。
 window.EVENT_GUIDE_CONFIG = {
-  published: true,
-  publicUrl: "https://san-vids-scenic-released.trycloudflare.com"
+  published: false,
+  publicUrl: ""
 };
