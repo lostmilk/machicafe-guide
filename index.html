@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="まちカフェ！イベント検索への入口です。">
+  <meta name="referrer" content="no-referrer">
+  <title>まちカフェ！｜イベント検索のご案内</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="guide.js" defer></script>
+</head>
+<body>
+  <main class="guide" aria-labelledby="site-name">
+    <header class="brand">
+      <h1 id="site-name">まちカフェ！</h1>
+    </header>
+
+    <section class="entry" aria-label="イベント検索への入口">
+      <p class="status" id="status" role="status">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="status-text">公開状況を確認しています</span>
+      </p>
+      <a class="open-search" id="open-search" hidden>
+        <span>イベント検索を開く</span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <p class="closed" id="closed">ただいま公開を停止しています</p>
+      <p class="note" id="note">時間をおいて、もう一度お越しください。</p>
+      <noscript><p class="note">公開先を表示するには、JavaScriptを有効にしてください。</p></noscript>
+    </section>
+
+    <footer class="footer">
+      <p>このページをブックマークすると、<br>次回もここから検索サイトを開けます。</p>
+    </footer>
+  </main>
+</body>
+</html>
