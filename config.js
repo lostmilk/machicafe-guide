@@ -3,6 +3,6 @@
 // 公開停止時: published を false にします。サーバーの自動監視は行いません。
 // この設定は誰でも読めます。パスワードやトークンは記載しないでください。
 window.EVENT_GUIDE_CONFIG = {
-  published: false,
-  publicUrl: ""
+  published: true,
+  publicUrl: "https://floral-editorial-unlock-stake.trycloudflare.com"
 };
