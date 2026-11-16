@@ -18,11 +18,11 @@
   closed.hidden = online;
   if (online) {
     link.href = url.href;
-    status.textContent = "イベント検索を公開しています";
+    status.textContent = "イベント検索ページは公開中です";
     note.textContent = "検索サイトへ移動します。";
   } else {
     link.removeAttribute("href");
-    status.textContent = "イベント検索は公開停止中です";
+    status.textContent = "イベント検索ページは公開停止中です";
     note.textContent = "時間をおいて、もう一度お越しください。";
   }
 })();
