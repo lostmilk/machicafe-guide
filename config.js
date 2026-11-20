@@ -4,5 +4,5 @@
 // この設定は誰でも読めます。パスワードやトークンは記載しないでください。
 window.EVENT_GUIDE_CONFIG = {
   published: true,
-  publicUrl: "https://particular-recorders-posted-latitude.trycloudflare.com"
+  publicUrl: "https://bras-division-unfortunately-causing.trycloudflare.com"
 };
