@@ -4,5 +4,5 @@
 // この設定は誰でも読めます。パスワードやトークンは記載しないでください。
 window.EVENT_GUIDE_CONFIG = {
   published: true,
-  publicUrl: "https://bras-division-unfortunately-causing.trycloudflare.com"
+  publicUrl: "https://sam-amazing-lined-riverside.trycloudflare.com/"
 };
