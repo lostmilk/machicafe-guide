@@ -5,6 +5,15 @@
   const closed = document.getElementById("closed");
   const status = document.getElementById("status-text");
   const note = document.getElementById("note");
+  const updated = document.getElementById("link-updated-at");
+  const timestamp = new Date(config.linkUpdatedAt);
+  if (config.linkUpdatedAt && !Number.isNaN(timestamp.getTime())) {
+    updated.dateTime = timestamp.toISOString();
+    updated.textContent = new Intl.DateTimeFormat('ja-JP', {
+      timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+    }).format(timestamp);
+  }
   let url = null;
   try {
     const candidate = new URL(config.publicUrl);
