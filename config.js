@@ -4,5 +4,5 @@
 // この設定は誰でも読めます。パスワードやトークンは記載しないでください。
 window.EVENT_GUIDE_CONFIG = {
   published: true,
-  publicUrl: "https://email-toolkit-socket-carriers.trycloudflare.com"
+  publicUrl: "https://wrapped-bubble-varying-martha.trycloudflare.com"
 };
