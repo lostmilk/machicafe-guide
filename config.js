@@ -6,5 +6,5 @@
 window.EVENT_GUIDE_CONFIG = {
   published: true,
   publicUrl: "https://acute-survey-encouraged-mustang.trycloudflare.com",
-  linkUpdatedAt: "2026-11-24T19:58:57+09:00"
+  linkUpdatedAt: "2026-11-24T09:58:30+09:00"
 };
