@@ -4,7 +4,7 @@
 // 公開停止時: published を false にします。サーバーの自動監視は行いません。
 // この設定は誰でも読めます。パスワードやトークンは記載しないでください。
 window.EVENT_GUIDE_CONFIG = {
-  published: true,
-  publicUrl: "https://sterling-southwest-faq-circuits.trycloudflare.com",
+  published: false,
+  publicUrl: "",
   linkUpdatedAt: "2026-11-24T09:58:30+09:00"
 };
