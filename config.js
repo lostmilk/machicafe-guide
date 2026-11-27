@@ -5,6 +5,6 @@
 // この設定は誰でも読めます。パスワードやトークンは記載しないでください。
 window.EVENT_GUIDE_CONFIG = {
   published: true,
-  publicUrl: "https://september-disposal-breaks-solve.trycloudflare.com",
+  publicUrl: "https://hardware-steering-oval-infectious.trycloudflare.com",
   linkUpdatedAt: "2026-11-26T01:41:54+09:00"
 };
